@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Checkpoint one</title>
+  </head>
+  <body>
+
+     <!-- this is the navar --> 
+    <nav>
+      <ul>
+        <li><a href="#home">home</a></li>
+        <li><a href="#about"> about </a></li>
+        <li><a href="#work"> work </a></li>
+        <li><a href="#resume"> resume</a></li>
+        <li><a href="#conttact"> contact </a></li>
+      </ul>
+    </nav>
+         <!-- this is the home section  --> 
+
+
+         <section id="home" >XSS stocké (ou permanent)
+            Ce type de vulnérabilité, aussi appelé faille permanente ou du second ordre permet des attaques puissantes. Elle se produit quand les données fournies par un utilisateur sont stockées sur un serveur (dans une base de données, des fichiers, ou autre), et ensuite ré-affichées sans que les caractères spéciaux HTML aient été encodés.
+            
+            Un exemple classique est celui des forums, où les utilisateurs peuvent poster des textes formatés avec des balises HTML. Ces failles sont plus importantes que celles d'autres types, parce qu'un attaquant peut se contenter d'injecter un script une seule fois et atteindre un grand nombre de victimes sans recourir à l'ingénierie sociale.
+            
+            Il y a diverses méthodes d'injection, qui ne nécessitent pas forcément que l'attaquant utilise l'application web elle-même. Toutes les données reçues par l'application web (par email, journaux…) qui peuvent être envoyées par un attaquant doivent être encodées avant leur présentation sur une page dynamique, faute de quoi une faille XSS existe.
+            
+            Basé sur le DOM ou local
+            Ce type de faille XSS est connu de longue date. Un article écrit en 20052 définit bien ses caractéristiques. Dans ce cas de figure, le problème est dans le script d'une page côté client. Par exemple, si un fragment de JavaScript accède à un paramètre d'une requête d'URL, et utilise cette information pour écrire du HTML dans sa propre page, et que cette information n'est pas encodée sous forme d'entités HTML, alors il y a probablement une vulnérabilité de type XSS. Les données écrites seront réinterprétées par le navigateur comme du code HTML contenant éventuellement un script malveillant ajouté.
+            
+            En pratique la manière d'exploiter une telle faille sera similaire au type suivant, sauf dans une situation très importante. À cause de la manière dont Internet Explorer traite les scripts côté client dans des objets situés dans la « zone locale » (par exemple le disque dur local du client), une faille de ce type peut conduire à des vulnérabilités d'exécution à distance. Par exemple, si un attaquant héberge un site web « malveillant » contenant un lien vers une page vulnérable sur le système local du client, un script peut être injecté et tournera avec les droits du navigateur web de l'utilisateur sur ce système. Ceci contourne complètement le « bac à sable », pas seulement les restrictions inter-domaines qui sont normalement contournées par les XSS.</section>
+         <section id="about" >XSS stocké (ou permanent)
+            Ce type de vulnérabilité, aussi appelé faille permanente ou du second ordre permet des attaques puissantes. Elle se produit quand les données fournies par un utilisateur sont stockées sur un serveur (dans une base de données, des fichiers, ou autre), et ensuite ré-affichées sans que les caractères spéciaux HTML aient été encodés.
+            
+            Un exemple classique est celui des forums, où les utilisateurs peuvent poster des textes formatés avec des balises HTML. Ces failles sont plus importantes que celles d'autres types, parce qu'un attaquant peut se contenter d'injecter un script une seule fois et atteindre un grand nombre de victimes sans recourir à l'ingénierie sociale.
+            
+            Il y a diverses méthodes d'injection, qui ne nécessitent pas forcément que l'attaquant utilise l'application web elle-même. Toutes les données reçues par l'application web (par email, journaux…) qui peuvent être envoyées par un attaquant doivent être encodées avant leur présentation sur une page dynamique, faute de quoi une faille XSS existe.
+            
+            Basé sur le DOM ou local
+            Ce type de faille XSS est connu de longue date. Un article écrit en 20052 définit bien ses caractéristiques. Dans ce cas de figure, le problème est dans le script d'une page côté client. Par exemple, si un fragment de JavaScript accède à un paramètre d'une requête d'URL, et utilise cette information pour écrire du HTML dans sa propre page, et que cette information n'est pas encodée sous forme d'entités HTML, alors il y a probablement une vulnérabilité de type XSS. Les données écrites seront réinterprétées par le navigateur comme du code HTML contenant éventuellement un script malveillant ajouté.
+            
+            En pratique la manière d'exploiter une telle faille sera similaire au type suivant, sauf dans une situation très importante. À cause de la manière dont Internet Explorer traite les scripts côté client dans des objets situés dans la « zone locale » (par exemple le disque dur local du client), une faille de ce type peut conduire à des vulnérabilités d'exécution à distance. Par exemple, si un attaquant héberge un site web « malveillant » contenant un lien vers une page vulnérable sur le système local du client, un script peut être injecté et tournera avec les droits du navigateur web de l'utilisateur sur ce système. Ceci contourne complètement le « bac à sable », pas seulement les restrictions inter-domaines qui sont normalement contournées par les XSS.</section>
+         <section id="work" > XSS stocké (ou permanent)
+            Ce type de vulnérabilité, aussi appelé faille permanente ou du second ordre permet des attaques puissantes. Elle se produit quand les données fournies par un utilisateur sont stockées sur un serveur (dans une base de données, des fichiers, ou autre), et ensuite ré-affichées sans que les caractères spéciaux HTML aient été encodés.
+            
+            Un exemple classique est celui des forums, où les utilisateurs peuvent poster des textes formatés avec des balises HTML. Ces failles sont plus importantes que celles d'autres types, parce qu'un attaquant peut se contenter d'injecter un script une seule fois et atteindre un grand nombre de victimes sans recourir à l'ingénierie sociale.
+            
+            Il y a diverses méthodes d'injection, qui ne nécessitent pas forcément que l'attaquant utilise l'application web elle-même. Toutes les données reçues par l'application web (par email, journaux…) qui peuvent être envoyées par un attaquant doivent être encodées avant leur présentation sur une page dynamique, faute de quoi une faille XSS existe.
+            
+            Basé sur le DOM ou local
+            Ce type de faille XSS est connu de longue date. Un article écrit en 20052 définit bien ses caractéristiques. Dans ce cas de figure, le problème est dans le script d'une page côté client. Par exemple, si un fragment de JavaScript accède à un paramètre d'une requête d'URL, et utilise cette information pour écrire du HTML dans sa propre page, et que cette information n'est pas encodée sous forme d'entités HTML, alors il y a probablement une vulnérabilité de type XSS. Les données écrites seront réinterprétées par le navigateur comme du code HTML contenant éventuellement un script malveillant ajouté.
+            
+            En pratique la manière d'exploiter une telle faille sera similaire au type suivant, sauf dans une situation très importante. À cause de la manière dont Internet Explorer traite les scripts côté client dans des objets situés dans la « zone locale » (par exemple le disque dur local du client), une faille de ce type peut conduire à des vulnérabilités d'exécution à distance. Par exemple, si un attaquant héberge un site web « malveillant » contenant un lien vers une page vulnérable sur le système local du client, un script peut être injecté et tournera avec les droits du navigateur web de l'utilisateur sur ce système. Ceci contourne complètement le « bac à sable », pas seulement les restrictions inter-domaines qui sont normalement contournées par les XSS.</section>
+         <section id="resume" > XSS stocké (ou permanent)
+            Ce type de vulnérabilité, aussi appelé faille permanente ou du second ordre permet des attaques puissantes. Elle se produit quand les données fournies par un utilisateur sont stockées sur un serveur (dans une base de données, des fichiers, ou autre), et ensuite ré-affichées sans que les caractères spéciaux HTML aient été encodés.
+            
+            Un exemple classique est celui des forums, où les utilisateurs peuvent poster des textes formatés avec des balises HTML. Ces failles sont plus importantes que celles d'autres types, parce qu'un attaquant peut se contenter d'injecter un script une seule fois et atteindre un grand nombre de victimes sans recourir à l'ingénierie sociale.
+            
+            Il y a diverses méthodes d'injection, qui ne nécessitent pas forcément que l'attaquant utilise l'application web elle-même. Toutes les données reçues par l'application web (par email, journaux…) qui peuvent être envoyées par un attaquant doivent être encodées avant leur présentation sur une page dynamique, faute de quoi une faille XSS existe.
+            
+            Basé sur le DOM ou local
+            Ce type de faille XSS est connu de longue date. Un article écrit en 20052 définit bien ses caractéristiques. Dans ce cas de figure, le problème est dans le script d'une page côté client. Par exemple, si un fragment de JavaScript accède à un paramètre d'une requête d'URL, et utilise cette information pour écrire du HTML dans sa propre page, et que cette information n'est pas encodée sous forme d'entités HTML, alors il y a probablement une vulnérabilité de type XSS. Les données écrites seront réinterprétées par le navigateur comme du code HTML contenant éventuellement un script malveillant ajouté.
+            
+            En pratique la manière d'exploiter une telle faille sera similaire au type suivant, sauf dans une situation très importante. À cause de la manière dont Internet Explorer traite les scripts côté client dans des objets situés dans la « zone locale » (par exemple le disque dur local du client), une faille de ce type peut conduire à des vulnérabilités d'exécution à distance. Par exemple, si un attaquant héberge un site web « malveillant » contenant un lien vers une page vulnérable sur le système local du client, un script peut être injecté et tournera avec les droits du navigateur web de l'utilisateur sur ce système. Ceci contourne complètement le « bac à sable », pas seulement les restrictions inter-domaines qui sont normalement contournées par les XSS.</section>
+         <section id="contact" ></section>
+
+
+    
+
+
+  </body>
+</html>
