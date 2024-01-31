@@ -2,20 +2,72 @@
 <html>
   <head>
     <title>Hello world !</title>
+    <!-- <style>
+      table, th, td {
+        border:1px solid black;
+      }
+      </style> -->
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+
+      <link rel="icon" href="./res/hewlett-packard-dell-logo-computer-integrated.jpg" type="image/x-icon"/>
+   <style>
+
+    #red {
+      background-color: red;
+      color: white;
+
+    }
+
+
+    #b {
+      border: 1px solid red;
+    }
+   </style>
   </head>
 
   <body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Features</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Pricing</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Dropdown link
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- <a href="#div"> this is a facebook link</a> -->
+    <!-- 
     <h1>
       This is a heading <br />
       yes its a heading
     </h1>
-    <!-- this is a comment -->
-    <p>
-      this is updatedt paragraph
-    </p>
-
+    <p>this is updatedt paragraph</p>
+    
     <img
-      src="https://www.bmw-m.com/content/dam/bmw/marketBMW_M/common/topics/magazine-article-pool/2020/m3-f80-f82-portraet/bmw-m3-f82-di-01.jpg"
+    src="https://www.bmw-m.com/content/dam/bmw/marketBMW_M/common/topics/magazine-article-pool/2020/m3-f80-f82-portraet/bmw-m3-f82-di-01.jpg"
     />
     <iframe
       width="500"
@@ -23,5 +75,181 @@
       src="https://www.youtube.com/embed/-2mMBaoSbYM"
     >
     </iframe>
+    
+    <div id="div">
+      this a div
+   
+    <ul>
+      <li>item x</li>
+      <li>item y</li>
+      <li>item z</li>
+    </ul>
+
+    <ol>
+      <li>item x</li>
+      <li>item y</li>
+      <li>item z</li>
+    </ol>
+
+    <table  border="1px solid black ">
+        <tr>
+           <th>name</th>
+           <th>age</th>
+           <th>hoby</th>
+
+        </tr>
+        <tr>
+          <td>bilel</td>
+          <td>20</td>
+          <td>coding</td>
+
+       </tr>
+
+       <tr>
+        <td>rami</td>
+        <td>20</td>
+        <td>coding and  camping</td>
+
+     </tr>
+
+    </table>
+
+
+    <button type="button"  onclick="test()">test me</button> -->
+<!-- 
+    <input id="input" type="text" placeholder="whats your name " />
+
+
+
+
+    <button type="button" onclick="test()">test me</button>
+    <div id="name"> -->
+
+
+
+      <!-- <img
+      alt="bmw picure failed to load"
+      src="https://www.bmw-m.com/content/dam/bmw/marketBMW_M/common/topics/magazine-article-pool/2020/m3-f80-f82-portraet/bmw-m3-f82-di-01.jpg"
+      /> -->
+    <!-- </div> -->
+
+<!-- 
+    <audio controls>
+      <source src="./res/LXST CXNTURY -  HAVOC.mp3" type="audio/mp3">
+          Please Check the audio Extension
+  </audio>
+
+
+  <video src="./res/Screencast 2024-01-31 11:30:06.mp4" width="320" height="240" controls>
+    <source  type="video/mp4" />
+    Please Check the video extension.
+  </video>
+
+
+
+
+    
+
+
+
+    </div>
+
+<div id="red">
+    <dl>
+      <dt>House Stark</dt>
+      <dd>The Direwolf</dd>
+    
+      <dt>House Lannister</dt>
+      <dd>The Lion</dd>
+    
+      <dt>House Targaryen</dt>
+      <dd>The Three-Headed Dragon</dd>
+    
+      <dt>House Baratheon</dt>
+      <dd>The Stag</dd>
+    </dl>
+
+  </div>
+
+
+    <dl>
+      <dt>House Stark</dt>
+      <dd>The Direwolf</dd>
+    
+      <dt>House Lannister</dt>
+      <dd>The Lion</dd>
+    
+      <dt>House Targaryen</dt>
+      <dd>The Three-Headed Dragon</dd>
+    
+      <dt>House Baratheon</dt>
+      <dd>The Stag</dd>
+    </dl>
+
+
+    <table id="b" >
+      <tr id="b" >
+        <th id="b">HTML</th>
+        <th id="b">CSS</th>
+        <th id="b">JS</th>
+      </tr>
+      <tr id="b">
+        <td id="b">Paragraphs</td>
+        <td id="b">Selectors</td>
+        <td id="b">DOM</td>
+      </tr>
+      <tr>
+        <td id="b">Tables</td>
+        <td id="b">Styles</td>
+        <td id="b">Elements</td>
+      </tr>
+    </table> -->
+
+
+    <form  onsubmit="test(event)" >
+      <label>Name:</label>
+      <input id="name" type="text" name="first name" placeholder="Type your name here" />
+      <br />
+
+      <label>Number:</label>
+      <input id="number" type="number" name="number" value="23123456" />
+      <br />
+
+      <label>Birth Date:</label>
+      <input id="date" type="date" name="birthday" />
+      <br />
+
+      <label>Password:</label>
+      <input id="mdp" type="password" name="password" />
+      <br />
+
+      <input onmouseover="test1()" type="submit" value="Submit" />
+    </form>
+
+
+    <script>
+    function test(event){
+      event.preventDefault();
+
+      console.log(event.target.number.value)
+      console.log(event.target.name.value)
+      console.log(event.target.date.value)
+      console.log(event.target.mdp.value)
+
+
+
+
+
+    }
+
+    function test1(){
+      console.log("just move ")
+    
+
+
+    }
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
   </body>
 </html>
